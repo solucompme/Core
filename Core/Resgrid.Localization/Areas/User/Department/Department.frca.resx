@@ -118,149 +118,149 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AccountOwner" xml:space="preserve">
-  <value>Propriétaire du compte</value>
+    <value>Account Owner</value>
   </data>
-	<data name="Address" xml:space="preserve">
-		<value>Adresse</value>
-	</data>
-	<data name="AddressError" xml:space="preserve">
-		<value>Nous n'avons pas pu vérifier l'adresse fournie. Vérifiez qu'elle est correcte avant de continuer.</value>
-	</data>
-	<data name="AddressHelp" xml:space="preserve">
-		<value>Ceci est l'adresse de votre département; il peut s'agir de l'adresse d'une station ou de votre bureau de district. Cette adresse est utilisée pour aider à localiser votre district et votre zone, et elle sert de solution de secours pour certaines opérations (par exemple, centrer le tableau principal).</value>
-	</data>
-	<data name="ApiRssSettings" xml:space="preserve">
-		<value>Paramètres API et RSS</value>
-	</data>
-	<data name="ApiSettingsHeader" xml:space="preserve">
-		<value>Paramètres de l'API</value>
-	</data>
-	<data name="CallSettingsHeader" xml:space="preserve">
-		<value>Paramètres d'importation des appels</value>
-	</data>
-	<data name="CallSorting" xml:space="preserve">
-		<value>Tri des appels</value>
-	</data>
-	<data name="City" xml:space="preserve">
-		<value>Ville</value>
-	</data>
-	<data name="CityLabel" xml:space="preserve">
-		<value>Ville</value>
-	</data>
-	<data name="CompletedOn" xml:space="preserve">
-		<value>Complété le</value>
-	</data>
-	<data name="Country" xml:space="preserve">
-		<value>Pays</value>
-	</data>
-	<data name="CountryLabel" xml:space="preserve">
-		<value>Pays</value>
-	</data>
-	<data name="DefaultMapCenterLabel" xml:space="preserve">
-		<value>Coordonnées GPS du centre de la carte par défaut</value>
-	</data>
-	<data name="DeleteInvite" xml:space="preserve">
-		<value>Supprimer l'invitation</value>
-	</data>
-	<data name="DeleteInviteWarning" xml:space="preserve">
-		<value>ATTENTION : Cela supprimera définitivement cette invitation et le lien que l'utilisateur a dans le courriel entraînera une erreur. Êtes-vous sûr de vouloir supprimer l'invitation ?</value>
-	</data>
-	<data name="DepartmentAddressHeader" xml:space="preserve">
-		<value>Adresse du département</value>
-	</data>
-	<data name="DepartmentName" xml:space="preserve">
-		<value>Nom du département</value>
-	</data>
-	<data name="DepartmentSettingsHeader" xml:space="preserve">
-		<value>Paramètres du département</value>
-	</data>
-	<data name="DisableAutoAvailable" xml:space="preserve">
-		<value>Désactiver l'auto-disponibilité</value>
-	</data>
-	<data name="DisableAutoAvailableHelp" xml:space="preserve">
-		<value>Désactivez la mise à jour automatique du statut du personnel à "Disponible" après une heure.</value>
-	</data>
-	<data name="DispatchImportEmail" xml:space="preserve">
-		<value>Courriel d'importation des appels</value>
-	</data>
-	<data name="DispatchImportEmailHelp" xml:space="preserve">
-		<value>Ceci est votre adresse e-mail ALL-CALL, tous les utilisateurs de votre département (ayant activé les notifications d'appel) recevront l'alerte d'appel.</value>
-	</data>
-	<data name="DispatchSettings" xml:space="preserve">
-		<value>Paramètres de répartition</value>
-	</data>
-	<data name="DispatchSettingsHeader" xml:space="preserve">
-		<value>Paramètres de répartition</value>
-	</data>
-	<data name="EmailAddress" xml:space="preserve">
-		<value>Adresse e-mail</value>
-	</data>
-	<data name="EmailAddresses" xml:space="preserve">
-		<value>Adresses e-mail</value>
-	</data>
-	<data name="EmailAddressesHelp" xml:space="preserve">
-		<value>Entrez les adresses e-mail séparées par des virgules (par exemple, "test1@test.com, test2@test.com")</value>
-	</data>
-	<data name="EmailType" xml:space="preserve">
-		<value>Type d'e-mail</value>
-	</data>
-	<data name="ForceDepartmentUpdate" xml:space="preserve">
-		<value>Forcer la mise à jour du département</value>
-	</data>
-	<data name="ForceDepartmentUpdateInfo" xml:space="preserve">
-		<value>Resgrid met en cache certaines données du département pour améliorer les performances. Des exemples de données mises en cache incluent les niveaux de personnel, les paramètres du département, les rôles/groupes/noms du personnel. Si vous rencontrez des problèmes où certaines données du département sont incorrectes, vous pouvez vouloir vider le cache du département.</value>
-	</data>
-	<data name="InvitesHeader" xml:space="preserve">
-		<value>Invitations</value>
-	</data>
-	<data name="LatitudePlaceholder" xml:space="preserve">
-		<value>Latitude du centre de cartographie</value>
-	</data>
-	<data name="LatitudePlaceholderHelp" xml:space="preserve">
-		<value>Latitude (notation décimale : par exemple, 39.1517)</value>
-	</data>
-	<data name="LongitudePlaceholder" xml:space="preserve">
-		<value>Longitude du centre de cartographie</value>
-	</data>
-	<data name="LongitudePlaceholderHelp" xml:space="preserve">
-		<value>Longitude (notation décimale : par exemple, -119.4571)</value>
-	</data>
-	<data name="MinutesToKeepOpen" xml:space="preserve">
-		<value>Minutes pour garder l'appel ouvert</value>
-	</data>
-	<data name="MinutesToKeepOpenHelp" xml:space="preserve">
-		<value>La valeur ci-dessus gardera les appels importés par courriel ouverts pendant ce temps, puis ils seront fermés. La case "Prune" doit également être cochée pour que la fermeture automatique ait lieu.</value>
-	</data>
-	<data name="Pending" xml:space="preserve">
-		<value>En attente</value>
-	</data>
-	<data name="PersonCallDispatchStatusLabel" xml:space="preserve">
-		<value>Statut de répartition d'appel du personnel</value>
-	</data>
-	<data name="PersonCallReleaseStatusLabel" xml:space="preserve">
-		<value>Statut de la libération d'appel du personnel</value>
-	</data>
-	<data name="PersonnelSorting" xml:space="preserve">
-		<value>Tri du personnel</value>
-	</data>
-	<data name="PersonnelStaffingResetHeader" xml:space="preserve">
-		<value>Réinitialisation de l'affectation du personnel</value>
-	</data>
-	<data name="PersonnelStaffingResetInfo" xml:space="preserve">
-		<value>Si vous avez besoin de réinitialiser les niveaux d'affectation de tout votre personnel chaque jour, vous pouvez le configurer ici. Un exemple serait de réinitialiser l'affectation à "indisponible" chaque jour afin que pour les journées à signalement rouge, vous soyez sûr que le personnel marqué comme disponible l'ait été après la réinitialisation.</value>
-	</data>
-	<data name="PersonnelStatusResetHeader" xml:space="preserve">
-		<value>Réinitialisation du statut du personnel</value>
-	</data>
-	<data name="PersonnelStatusResetInfo" xml:space="preserve">
-		<value>Si vous avez besoin de réinitialiser tous les statuts du personnel chaque jour, vous pouvez le configurer ici. Un exemple serait de réinitialiser le statut à "En attente" chaque jour afin que vous sachiez que le statut du personnel a été réinitialisé.</value>
-	</data>
-	<data name="PostalCodeLabel" xml:space="preserve">
-		<value>Code postal</value>
-	</data>
-	<data name="Provision" xml:space="preserve">
-		<value>Provision Rss\Atm Urls</value>
-	</data>
+  <data name="Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="AddressError" xml:space="preserve">
+    <value>We were unable verify the address supplied. Check to ensure it's correct before you continue.</value>
+  </data>
+  <data name="AddressHelp" xml:space="preserve">
+    <value>This is the address of your department; it could be the address of a single station or your district office. This address is used to help locate your district and area, and is used as a fallback for some operations (i.e. centering the big board).</value>
+  </data>
+  <data name="ApiRssSettings" xml:space="preserve">
+    <value>Api &amp; Rss Settings</value>
+  </data>
+  <data name="ApiSettingsHeader" xml:space="preserve">
+    <value>API Settings</value>
+  </data>
+  <data name="CallSettingsHeader" xml:space="preserve">
+    <value>Call Import Settings</value>
+  </data>
+  <data name="CallSorting" xml:space="preserve">
+    <value>Call Sorting</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="CityLabel" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="CompletedOn" xml:space="preserve">
+    <value>Completed On</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="CountryLabel" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="DefaultMapCenterLabel" xml:space="preserve">
+    <value>Default Map Center GPS Coordinates</value>
+  </data>
+  <data name="DeleteInvite" xml:space="preserve">
+    <value>Delete Invite</value>
+  </data>
+  <data name="DeleteInviteWarning" xml:space="preserve">
+    <value>WARNING: This will permanently delete this invite and the link the user has in the email will result in an error. Are you sure you want to delete the invite?</value>
+  </data>
+  <data name="DepartmentAddressHeader" xml:space="preserve">
+    <value>Department Address</value>
+  </data>
+  <data name="DepartmentName" xml:space="preserve">
+    <value>Department Name</value>
+  </data>
+  <data name="DepartmentSettingsHeader" xml:space="preserve">
+    <value>Department Settings</value>
+  </data>
+  <data name="DisableAutoAvailable" xml:space="preserve">
+    <value>Disable Auto-Available</value>
+  </data>
+  <data name="DisableAutoAvailableHelp" xml:space="preserve">
+    <value>Disable automatically setting personnel's status to Available after an hour</value>
+  </data>
+  <data name="DispatchImportEmail" xml:space="preserve">
+    <value>Dispatch Import Email</value>
+  </data>
+  <data name="DispatchImportEmailHelp" xml:space="preserve">
+    <value>This is your ALL-CALL email address, all users in your department (who have call notifications enabled) will receive the call alert</value>
+  </data>
+  <data name="DispatchSettings" xml:space="preserve">
+    <value>Dispatch Settings</value>
+  </data>
+  <data name="DispatchSettingsHeader" xml:space="preserve">
+    <value>Dispatch Settings</value>
+  </data>
+  <data name="EmailAddress" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+  <data name="EmailAddresses" xml:space="preserve">
+    <value>Email Addresses</value>
+  </data>
+  <data name="EmailAddressesHelp" xml:space="preserve">
+    <value>Enter the email addresses separated by comma's (i.e. "test1@test.com, test2@test.com")</value>
+  </data>
+  <data name="EmailType" xml:space="preserve">
+    <value>Email Type</value>
+  </data>
+  <data name="ForceDepartmentUpdate" xml:space="preserve">
+    <value>Force Department Update</value>
+  </data>
+  <data name="ForceDepartmentUpdateInfo" xml:space="preserve">
+    <value>Resgrid caches some department data to increase performance. Some examples of data that is cached is staffing levels, department settings, personnel roles\groups\names. If you have issues where some department data is incorrect you might want to clear your departments cache.</value>
+  </data>
+  <data name="InvitesHeader" xml:space="preserve">
+    <value>Invites</value>
+  </data>
+  <data name="LatitudePlaceholder" xml:space="preserve">
+    <value>Mapping Center Latitude</value>
+  </data>
+  <data name="LatitudePlaceholderHelp" xml:space="preserve">
+    <value>Latitude (Decimal Notation: i.e. 39.1517)</value>
+  </data>
+  <data name="LongitudePlaceholder" xml:space="preserve">
+    <value>Mapping Center Longitude</value>
+  </data>
+  <data name="LongitudePlaceholderHelp" xml:space="preserve">
+    <value>Longitude (Decimal Notation: i.e. -119.4571)</value>
+  </data>
+  <data name="MinutesToKeepOpen" xml:space="preserve">
+    <value>Minutes to keep call open</value>
+  </data>
+  <data name="MinutesToKeepOpenHelp" xml:space="preserve">
+    <value>The value above will keep email imported calls open for that long, then they will be closed. The Prune checkbox also needs to be checked for auto closing to occur.</value>
+  </data>
+  <data name="Pending" xml:space="preserve">
+    <value>Pending</value>
+  </data>
+  <data name="PersonCallDispatchStatusLabel" xml:space="preserve">
+    <value>Person Call Dispatch Status</value>
+  </data>
+  <data name="PersonCallReleaseStatusLabel" xml:space="preserve">
+    <value>Person Call Release Status</value>
+  </data>
+  <data name="PersonnelSorting" xml:space="preserve">
+    <value>Personnel Sorting</value>
+  </data>
+  <data name="PersonnelStaffingResetHeader" xml:space="preserve">
+    <value>Personnel Staffing Reset</value>
+  </data>
+  <data name="PersonnelStaffingResetInfo" xml:space="preserve">
+    <value>If you need to reset all your personnel's staffing level every day, you can configure it here. An example would be resetting staffing to unavailable every day so that for red-flag days you are sure personnel that are marked available happened after the reset.</value>
+  </data>
+  <data name="PersonnelStatusResetHeader" xml:space="preserve">
+    <value>Personnel Status Reset</value>
+  </data>
+  <data name="PersonnelStatusResetInfo" xml:space="preserve">
+    <value>If you need to reset all your personnel's statuses every day, you can configure it here. An example would be resetting status to "Standing By" every day so that you know personnel status is reset.</value>
+  </data>
+  <data name="PostalCodeLabel" xml:space="preserve">
+    <value>Zip/Postal Code</value>
+  </data>
+  <data name="Provision" xml:space="preserve">
+    <value>Provision Rss\Atm Urls</value>
+  </data>
   <data name="ProvisionFailureBody" xml:space="preserve">
     <value>Resgrid was unable provision the number you requested, please retry the operation with another number. If you cannot provision a number, please contact us and let us know.</value>
   </data>
