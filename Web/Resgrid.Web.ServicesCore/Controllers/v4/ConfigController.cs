@@ -17,9 +17,9 @@ namespace Resgrid.Web.Services.Controllers.v4
 	public class ConfigController : ControllerBase
 	{
 		#region Members and Constructors
-
 		public ConfigController()
 		{
+
 		}
 		#endregion Members and Constructors
 
@@ -72,6 +72,11 @@ namespace Resgrid.Web.Services.Controllers.v4
 			result.Data.UnitLocationStaleSeconds = MappingConfig.UnitLocationStaleSeconds;
 			result.Data.PersonnelLocationMinMeters = MappingConfig.PersonnelLocationMinMeters;
 			result.Data.UnitLocationMinMeters = MappingConfig.UnitLocationMinMeters;
+
+			result.Data.NovuEnvironmentId = ChatConfig.NovuEnvironmentId;
+			result.Data.NovuApplicationId = ChatConfig.NovuApplicationId;
+			result.Data.NovuBackendApiUrl = ChatConfig.NovuBackendUrl;
+			result.Data.NovuSocketUrl = ChatConfig.NovuSocketUrl;
 
 			result.PageSize = 1;
 			result.Status = ResponseHelper.Success;

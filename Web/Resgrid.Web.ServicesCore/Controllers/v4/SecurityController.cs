@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using Resgrid.Web.Services.Helpers;
 using Resgrid.Web.Services.Models.v4.Security;
 using Resgrid.Model;
+using Resgrid.Model.Providers;
 
 namespace Resgrid.Web.Services.Controllers.v4
 {
@@ -23,18 +24,21 @@ namespace Resgrid.Web.Services.Controllers.v4
 		private readonly IPermissionsService _permissionsService;
 		private readonly IPersonnelRolesService _personnelRolesService;
 		private readonly IUserProfileService _userProfileService;
+		private readonly INovuProvider _novuProvider;
 
 		/// <summary>
 		/// Operations to perform against the security sub-system
 		/// </summary>
 		public SecurityController(IDepartmentsService departmentsService, IDepartmentGroupsService departmentGroupsService,
-			IPermissionsService permissionsService, IPersonnelRolesService personnelRolesService, IUserProfileService userProfileService)
+			IPermissionsService permissionsService, IPersonnelRolesService personnelRolesService, IUserProfileService userProfileService,
+			INovuProvider novuProvider)
 		{
 			_departmentsService = departmentsService;
 			_departmentGroupsService = departmentGroupsService;
 			_permissionsService = permissionsService;
 			_personnelRolesService = personnelRolesService;
 			_userProfileService = userProfileService;
+			_novuProvider = novuProvider;
 		}
 		#endregion Members and Constructors
 
@@ -63,6 +67,7 @@ namespace Resgrid.Web.Services.Controllers.v4
 
 			result.Data.DepartmentId = department.DepartmentId.ToString();
 			result.Data.DepartmentName = department.Name;
+			result.Data.DepartmentCode = department.Code;
 
 			var profile = await _userProfileService.GetProfileByUserIdAsync(UserId);
 			result.Data.EmailAddress = profile.MembershipEmail;
@@ -94,6 +99,8 @@ namespace Resgrid.Web.Services.Controllers.v4
 			result.Data.CanCreateCalls = _permissionsService.IsUserAllowed(createCallPermission, result.Data.IsAdmin, isGroupAdmin, roles);
 			result.Data.CanAddNote = _permissionsService.IsUserAllowed(createNotePermission, result.Data.IsAdmin, isGroupAdmin, roles);
 			result.Data.CanCreateMessage = _permissionsService.IsUserAllowed(createMessagePermission, result.Data.IsAdmin, isGroupAdmin, roles);
+
+			var novuSuccess = await _novuProvider.CreateUserSubscriber(UserId, department.Code, DepartmentId, profile.MembershipEmail, profile.FirstName, profile.LastName);
 
 			result.PageSize = 1;
 			result.Status = ResponseHelper.Success;
