@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+ <data name="AddOption" xml:space="preserve">
+  <value>Ajouter une option (Bouton)</value>
+</data>
+<data name="Available" xml:space="preserve">
+  <value>Disponible</value>
+</data>
+<data name="BaseType" xml:space="preserve">
+  <value>Type de base</value>
+</data>
+<data name="ButtonBackgroundColorLabel" xml:space="preserve">
+  <value>Couleur de fond du bouton</value>
+</data>
+<data name="ButtonColorLabel" xml:space="preserve">
+  <value>Couleur du bouton</value>
+</data>
+<data name="ButtonPreview" xml:space="preserve">
+  <value>Aperçu du bouton</value>
+</data>
+<data name="ButtonsHelp" xml:space="preserve">
+  <value>Ce sont les boutons que vos utilisateurs verront sur les applications mobiles et le site web.</value>
+</data>
+<data name="ButtonText" xml:space="preserve">
+  <value>Texte du bouton</value>
+</data>
+<data name="ButtonTextColorLabel" xml:space="preserve">
+  <value>Couleur du texte du bouton</value>
+</data>
+<data name="ButtonTextLabel" xml:space="preserve">
+  <value>Texte du bouton</value>
+</data>
+<data name="Calls" xml:space="preserve">
+  <value>Appels</value>
+</data>
+<data name="CallsAndStations" xml:space="preserve">
+  <value>Appels et stations</value>
+</data>
+<data name="ChangesWarning" xml:space="preserve">
+  <value>Les modifications des statuts personnalisés peuvent prendre jusqu'à 30 minutes pour se propager complètement dans le réseau Resgrid. Les utilisateurs de l'application mobile sont invités à effectuer une resynchronisation manuelle (Paramètres -> Paramètres avancés -> ReSynchroniser).</value>
+</data>
+<data name="Cleared" xml:space="preserve">
+  <value>Libéré</value>
+</data>
+<data name="CurrentPersonnelStatusesHeader" xml:space="preserve">
+  <value>Statuts personnalisés du personnel (Actions)</value>
+</data>
+<data name="CurrentUnitStatusesHeader" xml:space="preserve">
+  <value>Statuts actuels des unités</value>
+</data>
+<data name="CustomPersonnelStaffingLevelsHeader" xml:space="preserve">
+  <value>Niveaux de personnel personnalisés</value>
+</data>
+<data name="CustomStatusDescPlaceholder" xml:space="preserve">
+  <value>Une description des statuts personnalisés.</value>
+</data>
+<data name="CustomStatusesHeader" xml:space="preserve">
+  <value>Statuts personnalisés</value>
+</data>
+<data name="CustomStatusNamePlaceholder" xml:space="preserve">
+  <value>Nom de l'ensemble de statuts personnalisés (ex. 'Mes statuts personnalisés')</value>
+</data>
+<data name="DefaultPersonnelActions" xml:space="preserve">
+  <value>Actions/Statuts par défaut du personnel</value>
+</data>
+<data name="DefaultPersonnelStaffing" xml:space="preserve">
+  <value>Niveau de personnel par défaut</value>
+</data>
+<data name="DeleteCustomStatusWarning" xml:space="preserve">
+  <value>AVERTISSEMENT : Cela supprimera définitivement cet ensemble de statuts et vos boutons reviendront aux paramètres par défaut pour ce type d'unité. Êtes-vous sûr de vouloir supprimer ce jeu de statuts ?</value>
+</data>
+<data name="DetailTypeLabel" xml:space="preserve">
+  <value>Type de détail</value>
+</data>
+<data name="Dispatched" xml:space="preserve">
+  <value>Réparti</value>
+</data>
+<data name="EditCustomStateDetailHeader" xml:space="preserve">
+  <value>Modifier le détail de l'état personnalisé</value>
+</data>
+<data name="EditEntryHeader" xml:space="preserve">
+  <value>Modifier les statuts personnalisés</value>
+</data>
+<data name="EditingSet" xml:space="preserve">
+  <value>Groupe en cours de modification</value>
+</data>
+<data name="EditPersonnelStatuses" xml:space="preserve">
+  <value>Modifier les statuts du personnel</value>
+</data>
+<data name="EditStaffingLevels" xml:space="preserve">
+  <value>Modifier les niveaux de personnel</value>
+</data>
+<data name="Investigating" xml:space="preserve">
+  <value>En vérification</value>
+</data>
+<data name="MadeContact" xml:space="preserve">
+  <value>Contact établi</value>
+</data>
+<data name="NewCustomStatusesHeader" xml:space="preserve">
+  <value>Nouveaux statuts personnalisés</value>
+</data>
+<data name="NewOptionHeader" xml:space="preserve">
+  <value>Nouvelle option</value>
+</data>
+<data name="NoDetail" xml:space="preserve">
+  <value>Aucun détail</value>
+</data>
+<data name="None" xml:space="preserve">
+  <value>Aucun</value>
+</data>
+<data name="NoNote" xml:space="preserve">
+  <value>Aucune note</value>
+</data>
+<data name="NoteTypeLabel" xml:space="preserve">
+  <value>Type de note</value>
+</data>
+<data name="NotResponding" xml:space="preserve">
+  <value>Non affecté</value>
+</data>
+<data name="OnScene" xml:space="preserve">
+  <value>Sur les lieux</value>
+</data>
+<data name="PersonnelActions" xml:space="preserve">
+  <value>Actions du personnel</value>
+</data>
+<data name="PersonnelStaffing" xml:space="preserve">
+  <value>Niveau de personnel</value>
+</data>
+<data name="PersonnelStatusesLabel" xml:space="preserve">
+  <value>Statuts du personnel</value>
+</data>
+<data name="PreviewButton" xml:space="preserve">
+  <value>Aperçu du bouton</value>
+</data>
+<data name="RequireGPSLabel" xml:space="preserve">
+  <value>Exiger le GPS</value>
+</data>
+<data name="Responding" xml:space="preserve">
+  <value>En direction</value>
+</data>
+<data name="Returning" xml:space="preserve">
+  <value>Retour</value>
+</data>
+<data name="SetCustomStaffingLevels" xml:space="preserve">
+  <value>Définir les niveaux de personnel personnalisés</value>
+</data>
+<data name="SetCustomStatuses" xml:space="preserve">
+  <value>Définir les statuts personnalisés</value>
+</data>
+<data name="StaffingLevelsLabel" xml:space="preserve">
+  <value>Niveau de personnel</value>
+</data>
+<data name="Staging" xml:space="preserve">
+  <value>En préparation</value>
+</data>
+<data name="Stations" xml:space="preserve">
+  <value>Stations</value>
+</data>
+<data name="TextColorLabel" xml:space="preserve">
+  <value>Couleur du texte</value>
+</data>
+<data name="Unavailable" xml:space="preserve">
+  <value>Indisponible</value>
+</data>
+<data name="UnitStatus" xml:space="preserve">
+  <value>Statut de l'unité</value>
+</data>
+</root>
